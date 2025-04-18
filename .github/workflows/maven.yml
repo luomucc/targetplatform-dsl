@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file fr.obeo.releng.targetplatform-parent/pom.xml
+      run: mvn -B package  fr.obeo.releng.targetplatform-parent/pom.xml
 
     - name: Get current timestamp
       id: get_timestamp
