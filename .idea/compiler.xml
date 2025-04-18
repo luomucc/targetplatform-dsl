@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="org.eclipse.cbi.targetplatform" />
+        <module name="org.eclipse.cbi.targetplatform.ui.tests" />
+        <module name="org.eclipse.cbi.targetplatform.model" />
+        <module name="org.eclipse.cbi.targetplatform-update" />
+        <module name="org.eclipse.cbi.targetplatform.feature" />
+        <module name="org.eclipse.cbi.targetplatform.ide" />
+        <module name="org.eclipse.cbi.targetplatform.tests" />
+        <module name="org.eclipse.cbi.targetplatform.ui" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
